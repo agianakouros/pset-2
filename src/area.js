@@ -18,11 +18,4 @@ const area = (c * d).toLocaleString("en", { minimumFractionDigits: 2, maximumFra
 
 
 
-
-
-
-
-
-
-
 console.log("\nA(n) " + a + "-by-" + b + "-inch sheet of paper has an area of " + area + " square millimeter(s).");
