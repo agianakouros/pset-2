@@ -10,6 +10,6 @@ const bus = Number(readlineSync.question("Bus capacity: "));
 
 
 const total = (students + teachers)
-var busnumber = Math.floor((total/bus) + 1);   //I'm doing +1 because you need one extra bus for the people that make up the remainder.//
+const busnumber = Math.floor((total/bus) + 1);   //I'm doing +1 because you need one extra bus for the people that make up the remainder.//
 
 console.log("\n" + busnumber + " bus(es) is (are) needed, with " + (total % bus) + " passenger(s) on the last bus.")
