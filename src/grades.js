@@ -33,6 +33,6 @@ const test = (((g + h + i)/ z) * y);
 
 
 
-const grade = (test + quiz + hw).toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2});
+let grade = (test + quiz + hw).toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2});
 
 console.log("\nYour marking period grade is " + grade + "%.");

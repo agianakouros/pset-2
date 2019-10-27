@@ -10,6 +10,6 @@ const circlearea = (radius * radius * Math.PI);
 
 const boardnocircle = (length * width);
 
-const totalboard = (boardnocircle - circlearea).toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2});
+let totalboard = (boardnocircle - circlearea).toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2});
 
 console.log("\nThe surface area of a standard Cornhole board is " + totalboard + " square inch(es).")

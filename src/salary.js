@@ -15,6 +15,6 @@ const total = ((salary * fed) + (salary * state) + (salary * soc) + (salary * me
 
 const home = (salary - total);
 
-const paycheck = (home / 24).toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2});
+let paycheck = (home / 24).toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2});
 
 console.log("\nYour take-home pay each check will be $" + paycheck + ".")
